@@ -53,6 +53,7 @@ struct ContentView: View {
                 
                 SubmitTF(text: $text, action: {})
             }
+            .padding()
         }
     }
 }
